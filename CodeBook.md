@@ -14,18 +14,18 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 #### Target dataset
 
-The target dataset, *[summaryMeans.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/summaryMeans.tsv)*, consists of 180 observations on the 88 columns described in the section 'Columns: summaryMeans.tsv' below.
+The target dataset, *[summaryMeans.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/summaryMeans.tsv)*, consists of 180 observations of the 88 columns described in the section 'Columns: summaryMeans.tsv' below.
 
 The target dataset was created by running an RScript, called [run_analysis.R](https://github.com/nikiwiles/cleaningdataproject/blob/master/run_analysis.R), that performs the following process - 
 
-1. Merge the training and the test sets (taken from the extracted archive) to form one data set.
+1. Merge the training and the test sets (taken from the zip archive) to form one data set.
 2. Extract only the measurements on the mean and standard deviation for each observation.
-3. Merge in descriptive activity labels (using activity_labels.txt in the archive)
+3. Merge in descriptive activity labels (using activity_labels.txt in the zip archive))
 4. Clean the variable names (incl. removing special character) and make them more descriptive.
-5. Export a dataset with the average of each variable for each activity and each subject, called *[summaryMeans.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/summaryMeans.tsv)*.
+5. Export a new dataset with the averages of each variable for each activity and each subject, called *[summaryMeans.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/summaryMeans.tsv)*.
 6. Export the rownames and column indexes of the new dataset to a file called  *[features.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/features.tsv)*.
 
-Before running the script, the contents of the file Dataset.zip should be unzipped into a data directory (./Data/) in the root of the working directory.
+Before running the script, the contents of the file zip archive should be unzipped into a data directory (./Data/) in the root of the working directory.
 
 #### Columns: summaryMeans.tsv 
 
