@@ -1,4 +1,4 @@
-# Codebook: 
+# Codebook
 
 ###Week 4 Course Project: Getting &amp; Cleaning Data.
 
@@ -14,7 +14,7 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 #### Target dataset
 
-The target dataset, *[summaryMeans.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/summaryMeans.tsv)*, consists of 180 observations on the 88 columns described in the section *summaryMeans.tsv Columns*.
+The target dataset, *[summaryMeans.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/summaryMeans.tsv)*, consists of 180 observations on the 88 columns described in the section summaryMeans.tsv Columns.
 
 The target dataset was created using an RScript, called [run_analysis.R](https://github.com/nikiwiles/cleaningdataproject/blob/master/run_analysis.R), that performs the following process - 
 
