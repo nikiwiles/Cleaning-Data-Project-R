@@ -23,7 +23,7 @@ The target dataset was created by running an RScript, called [run_analysis.R](ht
 3. Merge in descriptive activity labels (using activity_labels.txt in the zip archive)
 4. Clean the variable names (incl. removing special characters) and make them more descriptive.
 5. Export a new dataset with the averages of each variable for each activity and each subject, called *[summaryMeans.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/summaryMeans.tsv)*.
-6. Export the rownames and column indexes of the new dataset to a file called  *[features.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/features.tsv)*.
+6. Export the rownames of the new dataset to a file called  *[features.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/features.tsv)*.
 
 Before running the script, the contents of the file zip archive should be unzipped into a data directory (./Data/) in the root of the working directory.
 
