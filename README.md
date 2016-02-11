@@ -2,7 +2,7 @@
 
 The purpose of this project is to demonstrate an ability to collect, work with, and clean a data set, based [a study](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) from the emerging world of wearable computing.
 
-The project assumes that the contents of a [source dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) has been unzipped into a data directory (./Data/) in the root of the working R directory.
+The project assumes that the contents of a [source dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) has been unzipped into a data directory *(./Data/)* in the root of the working R directory.
 
 The project consists of - 
 
