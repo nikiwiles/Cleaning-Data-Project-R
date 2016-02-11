@@ -24,13 +24,13 @@ The target dataset was created using an RScript, called [run_analysis.R](https:/
 4. Merge in descriptive activity lables (using activity_labels.txt in the archive)
 5. Clean the variable names (incl. removing special character) and make them more descriptive.
 6. Export a dataset with the average of each variable for each activity and each subject, called [summaryMeans.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/summaryMeans.tsv).
-7. Export the rownames of the new dataset to a file called  [features.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/features.tsv).
+7. Export the rownames and column indexes of the new dataset to a file called  [features.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/features.tsv).
 
 #### summaryMeans.tsv Columns
 
 The target dataset contains the followning columns -
 
-* activityname’: a factor with levels * LAYING’ * SITTING’ * STANDING’ * WALKING’ * WALKING_DOWNSTAIRS’ * WALKING_UPSTAIRS’
+* activityname’: factor; levels LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS
 * subject’ the participant code: numeric 1-30 
 * timebodyaccelerationmeanx’: numeric -1 to 1
 * timebodyaccelerationmeany’: numeric -1 to 1
