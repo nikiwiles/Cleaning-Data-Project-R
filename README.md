@@ -6,8 +6,7 @@ The project assumes that the contents of a [source dataset](https://d396qusza40o
 
 The project consists of - 
 
-1. An RScript ([run_analysis.R](https://github.com/nikiwiles/cleaningdataproject/blob/master/run_analysis.R)) that imports, merges, cleans, sumarises the source dataset
+1. An RScript ([run_analysis.R](https://github.com/nikiwiles/cleaningdataproject/blob/master/run_analysis.R)) that imports, merges, cleans, summarises  the source dataset
 2. The target dataset ([summaryMeans.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/summaryMeans.tsv)) 
-3. A file ([features.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/features.tsv)) that provides column names for the target dataset)
-4. A codebook ([CodeBook.md](https://github.com/nikiwiles/cleaningdataproject/blob/master/CodeBook.md)) that provides further context and descibes the target dataset and the process used to generate it.  
-
+3. A file ([features.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/features.tsv)) that provides column names and indexes for the target dataset)
+4. A codebook ([CodeBook.md](https://github.com/nikiwiles/cleaningdataproject/blob/master/CodeBook.md)) that provides further context and describes  the target dataset and the process used to generate it.
