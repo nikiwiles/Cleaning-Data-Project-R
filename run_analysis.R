@@ -74,7 +74,7 @@ names(allData) <- sapply(names(allData), cleanColumnNames)
 summaryMeans <- allData %>% group_by(activityname, subject) %>% summarise_each(funs(mean))
 
 # Save the output
-write.table(summaryMeans, file='summaryMeans.tsv', quote=FALSE, sep=' ', col.names=FALSE)
+write.table(summaryMeans, file='summaryMeans.tsv', quote=FALSE, sep=' ', row.names = FALSE, col.names=FALSE)
 
 # Save column names
-write.table(names(summaryMeans), file='features.tsv', quote=FALSE, sep=' ', col.names=FALSE)
+write.table(names(summaryMeans), file='features.tsv', quote=FALSE, sep=' ', row.names = FALSE, col.names=FALSE)
