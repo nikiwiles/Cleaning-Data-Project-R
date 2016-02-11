@@ -20,7 +20,7 @@ The target dataset was created by running an RScript, called [run_analysis.R](ht
 
 1. Merge the training and the test sets (taken from the zip archive) to form one data set.
 2. Extract only the measurements on the mean and standard deviation for each observation.
-3. Merge in descriptive activity labels (using activity_labels.txt in the zip archive))
+3. Merge in descriptive activity labels (using activity_labels.txt in the zip archive)
 4. Clean the variable names (incl. removing special character) and make them more descriptive.
 5. Export a new dataset with the averages of each variable for each activity and each subject, called *[summaryMeans.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/summaryMeans.tsv)*.
 6. Export the rownames and column indexes of the new dataset to a file called  *[features.tsv](https://github.com/nikiwiles/cleaningdataproject/blob/master/features.tsv)*.
